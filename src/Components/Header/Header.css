@@ -1,0 +1,7 @@
+
+.header-container{
+    background-color: #0B0952;
+    
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+
+}

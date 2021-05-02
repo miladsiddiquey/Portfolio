@@ -1,0 +1,147 @@
+#contact {
+	
+	background-size: cover;
+	
+}
+
+#contact .block-heading h1
+{
+	color: #fff;
+	font-family: 'Milonga', cursive;
+	font-weight: 400;
+	font-size: 55px;
+}
+
+.contact-info {
+    padding: 16px 62px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 36px;
+    margin-top: 25px;
+}
+.
+.contact-info i {
+    width: 40px;
+	height: 40px;
+	color: white;
+	padding-top: 7px;
+	font-size: 25px;
+	border: 1px solid #fff;
+	text-align: center;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
+
+.contact-info p {
+    padding: 27px 10px;
+}
+
+.contact-info span {
+    padding-left: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 12px 15px;
+	margin-bottom: 30px;
+}
+
+input[type="submit"] {
+	background: transparent;
+	border: 1px solid #fff;
+	width: 100%;
+	padding: 10px;
+	transition: 0.5s background linear;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover {
+	background: #fff;
+	border-color: #fff;
+	transition: 0.5s background linear;
+	color: #333;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  09 - contact > Social
+/////////////////////////////////////////////////////////////////////*/
+
+.social-box {
+    list-style-type: none;
+    padding-left: 71px;
+    margin-top: 30px;
+}
+
+.social-box li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-box li a {
+	transition: 0.5s background linear;
+	color: #fff;
+}
+
+.facebook-icon {
+    padding: 10px 17px;
+    border: 1px solid #44619D;
+    background-color: #44619D;
+}
+
+.facebook-icon:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.twitter-icon {
+	padding: 10px 15px;
+	border: 1px solid #33CCFF;
+	background-color: #33CCFF;
+}
+
+.twitter-icon:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.g-plus-icon {
+	padding: 10px 15px;
+	border: 1px solid #DD4C39;
+	background-color: #DD4C39;
+}
+
+.g-plus-icon:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.linkedin-icon {
+	padding: 10px 15px;
+	border: 1px solid #1B86BD;
+	background-color: #1B86BD;
+}
+
+.linkedin-icon:hover {
+	background-color: transparent;
+	color: #fff;
+}
