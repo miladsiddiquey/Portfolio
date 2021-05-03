@@ -6,21 +6,21 @@ const Project = () => {
     const projects = [
         {
             name:'animal care ',
-            detail: 'A Full stack project full responsive',
+            detail: 'This is MERN Stack project and include user admin dashboard,  it is Fully responsive. A user can book various services for his pet if he wants',           
             img:'https://i.ibb.co/j4yhKbq/201.jpg',
             live:'https://dog-care-6c0d8.web.app/',
             repo:'https://github.com/miladsiddiquey/animal-care--dogger--client.git '
         },
         {
             name:'E-commerce site ',
-            detail: 'MERN project and include user admin dashboard',
+            detail: 'This is a full-Stack E-commerce project. The user can buy any product and must login before buying the product',           
             img:'https://i.ibb.co/P1KgHxF/501.jpg',
             live:'https://rm-food.web.app/home',
             repo:'https://github.com/miladsiddiquey/rm-food-client.git'
         },
         {
             name:'Travelling site ',
-            detail: 'This is travelling website',
+            detail: 'Travel to a specific place and it helps to have a perfect tour of any city.This website Provides car, bus , train, motorcycle service for travel',
             img:'https://i.ibb.co/d6RvhSN/505.jpg',
             live:'https://rides-project.web.app/',
             repo:'https://github.com/miladsiddiquey/cholo-travelling-service.git'
