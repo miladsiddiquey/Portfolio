@@ -9,20 +9,24 @@ import {
   Link
 } from "react-router-dom";
 import Home from './Components/Home/Home';
-import Contact from './Components/Contact/Contact';
-import ContactOne from './Components/ContactOne/ContactOne';
+import AllProject from './Components/AllProject/AllProject';
+import AllBlogs from './Components/AllBlogs/AllBlogs';
+
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path = '/test'>
-          <ContactOne/>
+        <Route path ='/allProjects'>
+          <AllProject/>
         </Route>
-        <Route path = '/contact'>
-          <Contact/>
+        <Route path = '/allBlogs'>
+          <AllBlogs/>
         </Route>
-      <Route path='/'>
+        <Route path='/home'>
+          <Home/>
+        </Route>
+      <Route exact path='/'>
         <Home/>
       </Route>
       </Switch>

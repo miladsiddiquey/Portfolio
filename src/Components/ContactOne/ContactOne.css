@@ -1,6 +1,8 @@
 #contact {
 	
+	background-image: url('https://i.ibb.co/0Bxgf04/contact-bg.jpg');
 	background-size: cover;
+	color: #fff;
 	
 }
 
@@ -13,7 +15,7 @@
 }
 
 .contact-info {
-    padding: 16px 62px;
+    padding: 0px 62px;
     text-align: left;
     font-size: 18px;
     line-height: 36px;
@@ -24,18 +26,15 @@
     width: 40px;
 	height: 40px;
 	color: white;
-	padding-top: 7px;
 	font-size: 25px;
 	border: 1px solid #fff;
 	text-align: center;
-	-webkit-transform: rotate(-45deg);
 	transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
+	
 }
 
 .contact-info p {
-    padding: 27px 10px;
+    padding: 24px 10px;
 }
 
 .contact-info span {
@@ -69,22 +68,14 @@ input[type="submit"]:hover {
 	transition: 0.5s background linear;
 	color: #333;
 }
-
-::-webkit-input-placeholder {
-   color: #fff;
+.overlay-3{
+	padding:60px 0;
+	background-color: rgba(33, 103, 88, 0.9);
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
-}
 
-:-ms-input-placeholder {  
-   color: #fff;  
-}
+/*  contact > Social */
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  09 - contact > Social
-/////////////////////////////////////////////////////////////////////*/
 
 .social-box {
     list-style-type: none;
@@ -113,24 +104,13 @@ input[type="submit"]:hover {
     color: #fff;
 }
 
-.twitter-icon {
+.github-icon {
 	padding: 10px 15px;
-	border: 1px solid #33CCFF;
-	background-color: #33CCFF;
+	border: 1px solid #000;
+	background-color: #000;
 }
 
-.twitter-icon:hover {
-	background-color: transparent;
-	color: #fff;
-}
-
-.g-plus-icon {
-	padding: 10px 15px;
-	border: 1px solid #DD4C39;
-	background-color: #DD4C39;
-}
-
-.g-plus-icon:hover {
+.github-icon:hover {
 	background-color: transparent;
 	color: #fff;
 }
@@ -142,6 +122,17 @@ input[type="submit"]:hover {
 }
 
 .linkedin-icon:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.medium-icon {
+	padding: 10px 15px;
+	border: 1px solid ;
+	background-color: #0BDC6D;
+}
+
+.medium-icon:hover {
 	background-color: transparent;
 	color: #fff;
 }

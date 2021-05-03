@@ -1,10 +1,11 @@
 import React from 'react';
 import About from '../About/About';
 import Blog from '../Blog/Blog';
+import ContactOne from '../ContactOne/ContactOne';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Project from '../Project/Project';
-import Skill from '../Skill/Skill';
+
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <About/>
             <Project/>
             <Blog/>
+            <ContactOne/>
             <Footer/>
         </div>
     );

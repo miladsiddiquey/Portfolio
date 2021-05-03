@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ProjectInfo from '../ProjectInfo/ProjectInfo';
 
 const Project = () => {
@@ -29,6 +30,10 @@ const Project = () => {
         <section className="container allSection" id="project">
             <div>
                 <h1 style={{ fontSize: '55px', fontWeight: 'bold', textAlign: 'center' }}>Recent Projects</h1>
+               
+            </div>
+            <div className="text-center">
+            <Link to='/allProjects' className="  text-success "><h5>See all</h5></Link>
             </div>
             <div className="row d-flex justify-content-center">
                 {

@@ -46,6 +46,11 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
+                    <div className="col-md-6 mt-5">
+                        <h4>Address: Shibgonj, Sylhet-3100, Bangladesh</h4>
+                        <h4>Phone: +8801799748096</h4>
+                        <h4>Email: miladsiddiquey@gmail.com</h4>
+                    </div>
                 </div>
             </div>
         </div>

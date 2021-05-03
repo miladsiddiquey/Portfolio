@@ -22,9 +22,9 @@ const Header = () => {
 
 
                         </h3><br />
-                        <a href="https://www.linkedin.com/in/miladsiddiquey/" className="btn btn-success mr-5">Hire me</a>
+                        <a href="https://www.linkedin.com/in/miladsiddiquey/" className="btn btn-success mr-3">Hire me</a>
 
-                        <a href="https://drive.google.com/uc?export=download&id=1xH6rfUT3SDZZbB82STOdfGeJQ7OiRv1Q"><button className="btn btn-outline-success mr-5">Download Resume</button></a>
+                        <a href="https://drive.google.com/uc?export=download&id=1xH6rfUT3SDZZbB82STOdfGeJQ7OiRv1Q"><button className="btn btn-outline-success ">Download Resume</button></a>
                     </div>
                     <div className="col-md-5 col-sm-12">
                         <img className="img-fluid d-none d-lg-block" src="https://i.ibb.co/HxxdSMv/IMG-20210430-153326.png" alt="" />
