@@ -91,12 +91,12 @@ const ContactOne = () => {
                                             </div>
                                         </div>                                  
                                     </div>                                   
-                                    <div className="row">                                   
+                                    <div className="row ">                                   
                                         <ul className="social-box">
-                                            <li><a className="facebook-icon" href="https://www.facebook.com/Siddiqueymilad"> <FontAwesomeIcon icon={faFacebook} style={{fontSize:'30px'}} /></a></li>
-                                            <li><a className="github-icon" href="https://github.com/miladsiddiquey"><FontAwesomeIcon icon={faGithub} style={{fontSize:'30px'}} /></a></li>
-                                            <li><a className="linkedin-icon" href="https://www.linkedin.com/in/miladsiddiquey/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:'30px'}} /></a></li>
-                                            <li><a className="medium-icon" href="#"><FontAwesomeIcon icon={faMedium} style={{fontSize:'30px'}} /></a></li>
+                                            <li><a className="facebook-icon" target="_blank" href="https://www.facebook.com/Siddiqueymilad"> <FontAwesomeIcon icon={faFacebook} style={{fontSize:'30px'}} /></a></li>
+                                            <li><a className="github-icon" target="_blank" href="https://github.com/miladsiddiquey"><FontAwesomeIcon icon={faGithub} style={{fontSize:'30px'}} /></a></li>
+                                            <li><a className="linkedin-icon" target="_blank" href="https://www.linkedin.com/in/miladsiddiquey/"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:'30px'}} /></a></li>
+                                            <li><a className="medium-icon" target="_blank" href="#"><FontAwesomeIcon icon={faMedium} style={{fontSize:'30px'}} /></a></li>
                                         </ul>
                                     </div>
                                 </div>
