@@ -1,4 +1,7 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 const About = () => {
     return (
@@ -6,11 +9,12 @@ const About = () => {
             <div>
                 <h1 style={{ fontSize: '55px', fontWeight: 'bold', textAlign: 'center' }}>About Me</h1>
             </div>
+            
             <div className="row">
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-6 col-sm-12" data-aos="fade-right" >
                     <img src="https://i.ibb.co/PhRYBbd/about-c07f3d2b.png" className="img-fluid" alt="" />
                 </div>
-                <div className="col-md-6 col-sm-12 mt-5">
+                <div className="col-md-6 col-sm-12 mt-5" data-aos="fade-left" >
                     <h1>I'm a <br />MERN Stack web developer </h1>
                     <br />
 
