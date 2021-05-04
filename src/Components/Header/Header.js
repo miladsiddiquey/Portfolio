@@ -24,7 +24,7 @@ const Header = () => {
                         </h3><br />
                         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/miladsiddiquey/" className="btn btn-success mr-3">Hire me</a>
 
-                        <a target="_blank" rel="noreferrer" href="https://drive.google.com/uc?export=download&id=1NB3NdcwS8OApQtrVUeuWGFJFR3ghYE6e"><button className="btn btn-outline-success ">Download Resume</button></a>
+                        <a target="_blank" rel="noreferrer" href="https://drive.google.com/uc?export=download&id=1DQeAn4puNBolkGeKogNSmTGpD7UYNrhI"><button className="btn btn-outline-success ">Download Resume</button></a>
                     </div>
                     <div className="col-md-5 col-sm-12">
                         <img className="img-fluid d-none d-lg-block" src="https://i.ibb.co/HxxdSMv/IMG-20210430-153326.png" alt="" />
